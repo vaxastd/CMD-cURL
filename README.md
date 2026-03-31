@@ -1,55 +1,23 @@
-# CMD cURL
+# CMD cURL: Terminal Wizardry
 
-cURL is a versatile command-line tool for transferring data using various protocols, allowing you to fetch web pages, download and upload files, make HTTP requests, and test APIs.
+A "just-for-fun" implementation bringing HTTP capabilities to the restricted Windows Batch ecosystem. This project proves that you don't need modern binaries or heavy runtimes to perform network I/O—just a bit of madness and a well-crafted `.bat` script.
 
-<hr><br>
+## Technical Specifications
+* **Runtime**: Windows Command Processor (`cmd.exe`)
+* **Engine**: Native WinHTTP / MSXML 6.0 Abstraction
+* **Dependency**: Zero (No external `curl.exe` or `wget` required)
+* **Vibe**: 100% Retro, 0% Corporate Bloat
 
-## Purpose of This Repository
+## Environment Setup
+Forget complex configurations or environment variables. This is built for the "Double-Click" era:
 
-Doing something fun with cURL.
+1.  **Download/Clone** this repository to your local machine.
+2.  **Navigate** to the folder.
+3.  **Run**: Just double-click the `.bat` file and watch the magic happen.
 
-<hr><br>
-
-## Demo
-
-<div align=center>
-  
-![Demo](https://github.com/user-attachments/assets/77e66fea-47b4-45ab-afb2-8265f0fdd9b0)
-</div>
-
-<hr><br>
-
-## Features
-
-- Fetch web pages
-- Download and upload files
-- Make HTTP requests
-- Test APIs
-
-<hr><br>
-
-## Technologies Used
-
-- cURL
-- Shell scripting
-
-<hr><br>
-
-## Project Setup
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/n4vrl0s3/CMD-cURL.git
-   cd CMD-cURL
-   ```
-
-2. **Ensure you have cURL installed:**
-   ```bash
-   curl --version
-   ```
-
-<hr><br>
+```bash
+git clone https://github.com/vaxastd/CMD-cURL.git
+```
 
 ## Steps to Run
 
@@ -58,18 +26,4 @@ Doing something fun with cURL.
 <div align=center>
   
 ![How to Start](https://github.com/user-attachments/assets/77e66fea-47b4-45ab-afb2-8265f0fdd9b0)
-</div>
-
-<hr><br>
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-<hr><br>
-
-<div align="center">
-  <a href="https://www.x.com/n4vrl0s3/">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:49108B,20:F3F8FF&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-  </a>
 </div>
