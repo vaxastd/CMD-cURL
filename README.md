@@ -16,7 +16,7 @@ Forget complex configurations or environment variables. This is built for the "D
 3.  **Run**: Just double-click the `.bat` file and watch the magic happen.
 
 ```bash
-git clone https://github.com/vaxastd/CMD-cURL.git
+git clone https://github.com/sha-wrks/CMD-cURL.git
 ```
 
 ## Steps to Run
